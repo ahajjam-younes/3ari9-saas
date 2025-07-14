@@ -1,0 +1,49 @@
+{
+  "name": "3ari9-backend",
+  "version": "1.0.0",
+  "description": "Backend API for 3ari9 - Plataforma de Cuentos con IA para Niños",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo \"Backend build process complete\"",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "3ari9",
+    "api",
+    "backend",
+    "ai",
+    "stories",
+    "children",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "ahajjam-younes",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1400.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.1",
+    "helmet": "^7.0.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^3.3.0",
+    "stripe": "^12.13.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "jest": "^29.6.1",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
