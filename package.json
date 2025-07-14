@@ -1,0 +1,47 @@
+{
+  "name": "3ari9-saas",
+  "version": "1.0.0",
+  "description": "3ari9 - Plataforma de Cuentos con IA para Niños. Aplicación SaaS moderna con frontend Next.js y backend Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "start": "cd backend && npm run start",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "3ari9",
+    "ai",
+    "stories",
+    "children",
+    "education",
+    "saas",
+    "nextjs",
+    "nodejs",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "ahajjam-younes",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahajjam-younes/3ari9-saas.git"
+  },
+  "homepage": "https://github.com/ahajjam-younes/3ari9-saas#readme",
+  "bugs": {
+    "url": "https://github.com/ahajjam-younes/3ari9-saas/issues"
+  }
+}
